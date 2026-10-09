@@ -69,10 +69,10 @@ The setup script uses the model's pinned revision and records downloaded-file ha
 
 ## Clone, install, and run from GitHub
 
-Replace `YOUR_USERNAME` with the owner of the repository you publish. These are the exact commands a reviewer can use after replacement:
+Replace `tanish02-pixel` with the owner of the repository you publish. These are the exact commands a reviewer can use after replacement:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/riskpulse.git
+git clone https://github.com/tanish02-pixel/riskpulse.git
 cd riskpulse
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
