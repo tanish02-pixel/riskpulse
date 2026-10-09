@@ -1,0 +1,11 @@
+.venv/
+.env
+runtime/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+frontend/node_modules/
+.DS_Store
+# Keep the prebuilt dashboard for one-command local runs.
+

@@ -1,0 +1,4 @@
+# Install CPU PyTorch first using the command in README for smaller downloads.
+torch>=2.6,<3
+transformers==5.19.0
+
