@@ -1,0 +1,269 @@
+{
+  "scope": "24 independently authored synthetic sanity cases. No training or tuning on these cases. This is not a real-news benchmark or a return-prediction evaluation.",
+  "backend": "finbert",
+  "cases": 24,
+  "sentiment_correct": 24,
+  "event_correct": 24,
+  "mean_latency_ms": 80.47,
+  "p95_latency_ms": 95.44,
+  "confusion_matrix": {
+    "positive": {
+      "positive": 8,
+      "negative": 0,
+      "neutral": 0
+    },
+    "negative": {
+      "positive": 0,
+      "negative": 8,
+      "neutral": 0
+    },
+    "neutral": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    }
+  },
+  "results": [
+    {
+      "text": "Apple reports record revenue and strong profit growth.",
+      "sentiment": "positive",
+      "event": "Earnings",
+      "predicted_sentiment": "positive",
+      "predicted_event": "Earnings",
+      "sentiment_score": 0.9366,
+      "impact_score": 5,
+      "latency_ms": 129.72
+    },
+    {
+      "text": "Microsoft earnings beat expectations as revenue and profit rise sharply.",
+      "sentiment": "positive",
+      "event": "Earnings",
+      "predicted_sentiment": "positive",
+      "predicted_event": "Earnings",
+      "sentiment_score": 0.902,
+      "impact_score": 5,
+      "latency_ms": 77.65
+    },
+    {
+      "text": "NVIDIA reports strong demand and raises guidance after record profit.",
+      "sentiment": "positive",
+      "event": "Earnings",
+      "predicted_sentiment": "positive",
+      "predicted_event": "Earnings",
+      "sentiment_score": 0.9057,
+      "impact_score": 5,
+      "latency_ms": 108.17
+    },
+    {
+      "text": "Amazon reports a successful acquisition that improves profit growth.",
+      "sentiment": "positive",
+      "event": "Merger/Acquisition",
+      "predicted_sentiment": "positive",
+      "predicted_event": "Merger/Acquisition",
+      "sentiment_score": 0.9399,
+      "impact_score": 6,
+      "latency_ms": 74.54
+    },
+    {
+      "text": "Walmart reports improved sales and strong growth in revenue.",
+      "sentiment": "positive",
+      "event": "Earnings",
+      "predicted_sentiment": "positive",
+      "predicted_event": "Earnings",
+      "sentiment_score": 0.9394,
+      "impact_score": 5,
+      "latency_ms": 87.86
+    },
+    {
+      "text": "Johnson & Johnson launches a successful new product with strong demand.",
+      "sentiment": "positive",
+      "event": "Product Launch",
+      "predicted_sentiment": "positive",
+      "predicted_event": "Product Launch",
+      "sentiment_score": 0.9321,
+      "impact_score": 4,
+      "latency_ms": 77.8
+    },
+    {
+      "text": "Alphabet reports profit growth and raises earnings guidance.",
+      "sentiment": "positive",
+      "event": "Earnings",
+      "predicted_sentiment": "positive",
+      "predicted_event": "Earnings",
+      "sentiment_score": 0.9344,
+      "impact_score": 5,
+      "latency_ms": 70.11
+    },
+    {
+      "text": "Exxon reports strong quarterly earnings and improved profits.",
+      "sentiment": "positive",
+      "event": "Earnings",
+      "predicted_sentiment": "positive",
+      "predicted_event": "Earnings",
+      "sentiment_score": 0.9361,
+      "impact_score": 5,
+      "latency_ms": 74.32
+    },
+    {
+      "text": "Apple reports a major sales decline and cuts earnings guidance.",
+      "sentiment": "negative",
+      "event": "Earnings",
+      "predicted_sentiment": "negative",
+      "predicted_event": "Earnings",
+      "sentiment_score": -0.9613,
+      "impact_score": 6,
+      "latency_ms": 78.65
+    },
+    {
+      "text": "JPMorgan faces bankruptcy following a missed repayment and credit downgrade.",
+      "sentiment": "negative",
+      "event": "Credit Event",
+      "predicted_sentiment": "negative",
+      "predicted_event": "Credit Event",
+      "sentiment_score": -0.945,
+      "impact_score": 9,
+      "latency_ms": 86.5
+    },
+    {
+      "text": "Amazon suffers a major outage and data breach causing losses.",
+      "sentiment": "negative",
+      "event": "Operational",
+      "predicted_sentiment": "negative",
+      "predicted_event": "Operational",
+      "sentiment_score": -0.956,
+      "impact_score": 7,
+      "latency_ms": 77.58
+    },
+    {
+      "text": "Meta Platforms faces a fraud investigation and antitrust fine.",
+      "sentiment": "negative",
+      "event": "Regulatory",
+      "predicted_sentiment": "negative",
+      "predicted_event": "Regulatory",
+      "sentiment_score": -0.8764,
+      "impact_score": 7,
+      "latency_ms": 76.46
+    },
+    {
+      "text": "Exxon faces global sanctions and an export ban after a war escalates.",
+      "sentiment": "negative",
+      "event": "Geopolitical",
+      "predicted_sentiment": "negative",
+      "predicted_event": "Geopolitical",
+      "sentiment_score": -0.9015,
+      "impact_score": 9,
+      "latency_ms": 85.72
+    },
+    {
+      "text": "Microsoft revenue declines as weak demand causes quarterly losses.",
+      "sentiment": "negative",
+      "event": "Earnings",
+      "predicted_sentiment": "negative",
+      "predicted_event": "Earnings",
+      "sentiment_score": -0.9623,
+      "impact_score": 5,
+      "latency_ms": 73.65
+    },
+    {
+      "text": "Walmart cuts guidance after a slump in sales and profits.",
+      "sentiment": "negative",
+      "event": "Earnings",
+      "predicted_sentiment": "negative",
+      "predicted_event": "Earnings",
+      "sentiment_score": -0.9576,
+      "impact_score": 5,
+      "latency_ms": 77.34
+    },
+    {
+      "text": "NVIDIA faces an export ban and major shutdown causing losses.",
+      "sentiment": "negative",
+      "event": "Geopolitical",
+      "predicted_sentiment": "negative",
+      "predicted_event": "Geopolitical",
+      "sentiment_score": -0.963,
+      "impact_score": 8,
+      "latency_ms": 95.44
+    },
+    {
+      "text": "Apple publishes the date of its annual shareholder meeting.",
+      "sentiment": "neutral",
+      "event": "Other",
+      "predicted_sentiment": "neutral",
+      "predicted_event": "Other",
+      "sentiment_score": -0.0575,
+      "impact_score": 2,
+      "latency_ms": 74.57
+    },
+    {
+      "text": "Microsoft schedules its annual meeting for next month.",
+      "sentiment": "neutral",
+      "event": "Other",
+      "predicted_sentiment": "neutral",
+      "predicted_event": "Other",
+      "sentiment_score": -0.234,
+      "impact_score": 2,
+      "latency_ms": 71.91
+    },
+    {
+      "text": "The Federal Reserve publishes its interest rate decision calendar.",
+      "sentiment": "neutral",
+      "event": "Macroeconomic",
+      "predicted_sentiment": "neutral",
+      "predicted_event": "Macroeconomic",
+      "sentiment_score": -0.0963,
+      "impact_score": 5,
+      "latency_ms": 73.21
+    },
+    {
+      "text": "Alphabet lists the location of its next shareholder meeting.",
+      "sentiment": "neutral",
+      "event": "Other",
+      "predicted_sentiment": "neutral",
+      "predicted_event": "Other",
+      "sentiment_score": -0.0401,
+      "impact_score": 2,
+      "latency_ms": 73.67
+    },
+    {
+      "text": "Walmart announces the publication date of its quarterly earnings report.",
+      "sentiment": "neutral",
+      "event": "Earnings",
+      "predicted_sentiment": "neutral",
+      "predicted_event": "Earnings",
+      "sentiment_score": -0.2003,
+      "impact_score": 4,
+      "latency_ms": 77.56
+    },
+    {
+      "text": "The regulator releases the schedule for the upcoming hearing.",
+      "sentiment": "neutral",
+      "event": "Regulatory",
+      "predicted_sentiment": "neutral",
+      "predicted_event": "Regulatory",
+      "sentiment_score": -0.0801,
+      "impact_score": 6,
+      "latency_ms": 73.44
+    },
+    {
+      "text": "Johnson & Johnson publishes its company office address.",
+      "sentiment": "neutral",
+      "event": "Other",
+      "predicted_sentiment": "neutral",
+      "predicted_event": "Other",
+      "sentiment_score": -0.0506,
+      "impact_score": 2,
+      "latency_ms": 70.45
+    },
+    {
+      "text": "The acquisition hearing is scheduled for Tuesday.",
+      "sentiment": "neutral",
+      "event": "Merger/Acquisition",
+      "predicted_sentiment": "neutral",
+      "predicted_event": "Merger/Acquisition",
+      "sentiment_score": -0.0702,
+      "impact_score": 5,
+      "latency_ms": 64.85
+    }
+  ],
+  "impact_note": "Impact scores are deterministic severity estimates. No empirical calibration or impact-accuracy claim."
+}

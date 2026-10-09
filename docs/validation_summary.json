@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-08",
+  "environment": "Python 3.12, Linux, CPU",
+  "tests_passed": 28,
+  "warnings": 1,
+  "warning_note": "Starlette TestClient deprecation for HTTPX; tests still passed.",
+  "finbert_integration": "passed with cached model",
+  "frontend_production_build": "passed",
+  "http_homepage_assets_api": "passed",
+  "live_items": 50,
+  "live_source_counts": {
+    "BBC Business": 20,
+    "Apple Newsroom": 20,
+    "Microsoft corporate blog": 10
+  },
+  "browser_visual_and_interaction_qa": "unavailable in managed environment",
+  "windows_launcher_execution": "not tested",
+  "docker_build": "not tested",
+  "real_news_benchmark": "not performed",
+  "backtesting": "not performed"
+}

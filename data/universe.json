@@ -1,0 +1,13 @@
+[
+  {"ticker":"AAPL","company":"Apple","sector":"Technology","aliases":["Apple","AAPL","iPhone","Cupertino"]},
+  {"ticker":"MSFT","company":"Microsoft","sector":"Technology","aliases":["Microsoft","MSFT","Azure"]},
+  {"ticker":"NVDA","company":"NVIDIA","sector":"Technology","aliases":["Nvidia","NVDA","GeForce"]},
+  {"ticker":"AMZN","company":"Amazon","sector":"Consumer","aliases":["Amazon","AMZN","AWS"]},
+  {"ticker":"GOOGL","company":"Alphabet","sector":"Communication","aliases":["Alphabet","Google","GOOGL","GOOG"]},
+  {"ticker":"META","company":"Meta Platforms","sector":"Communication","aliases":["Meta Platforms","Facebook","Instagram","META"]},
+  {"ticker":"JPM","company":"JPMorgan Chase","sector":"Financials","aliases":["JPMorgan","JPMorgan Chase","JPM"]},
+  {"ticker":"XOM","company":"Exxon Mobil","sector":"Energy","aliases":["Exxon","Exxon Mobil","XOM"]},
+  {"ticker":"JNJ","company":"Johnson & Johnson","sector":"Healthcare","aliases":["Johnson & Johnson","Johnson and Johnson","JNJ"]},
+  {"ticker":"WMT","company":"Walmart","sector":"Consumer","aliases":["Walmart","WMT"]}
+]
+

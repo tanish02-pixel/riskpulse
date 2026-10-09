@@ -1,0 +1,15 @@
+REPLACE EVERY BRACKETED LINK BEFORE SUBMITTING.
+
+Project: RiskPulse - Financial Risk Intelligence and Index Rebalancing
+Selected downstream application: Module A - Tactical Index Rebalancing
+
+RiskPulse implements a unified AI/NLP risk engine that ingests financial news and first-party company announcements. It outputs sentiment score, event classification, and impact score through a REST API and JSON/CSV export. FinBERT provides sentiment when configured, while auditable rules provide event categories and an uncalibrated severity estimate.
+
+Module A rebalances a mock ten-stock index using fresh, eligible company sentiment. The dashboard shows current weights, baseline comparisons, persisted history, signal evidence, data-source status, and configurable weight/turnover constraints. Live feeds and clearly labeled synthetic replay use separate portfolios. The repository includes datasets, setup instructions, tests, and an AI assistance disclosure.
+
+Public source repository: [PASTE YOUR PUBLIC GITHUB REPOSITORY URL]
+Accessible demo video: [PASTE YOUR FINAL VIDEO URL]
+Seven-slide presentation PDF: [PASTE YOUR ACCESSIBLE PRESENTATION URL]
+Hosted application (only if you actually deploy it): [PASTE REAL URL OR REMOVE THIS LINE]
+
+A functional local demonstration is available using the README setup steps. This submission implements Module A. Synthetic sanity results are not claims of real-news accuracy or investment returns.

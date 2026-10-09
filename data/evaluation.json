@@ -1,0 +1,27 @@
+[
+ {"text":"Apple reports record revenue and strong profit growth.","sentiment":"positive","event":"Earnings"},
+ {"text":"Microsoft earnings beat expectations as revenue and profit rise sharply.","sentiment":"positive","event":"Earnings"},
+ {"text":"NVIDIA reports strong demand and raises guidance after record profit.","sentiment":"positive","event":"Earnings"},
+ {"text":"Amazon reports a successful acquisition that improves profit growth.","sentiment":"positive","event":"Merger/Acquisition"},
+ {"text":"Walmart reports improved sales and strong growth in revenue.","sentiment":"positive","event":"Earnings"},
+ {"text":"Johnson & Johnson launches a successful new product with strong demand.","sentiment":"positive","event":"Product Launch"},
+ {"text":"Alphabet reports profit growth and raises earnings guidance.","sentiment":"positive","event":"Earnings"},
+ {"text":"Exxon reports strong quarterly earnings and improved profits.","sentiment":"positive","event":"Earnings"},
+ {"text":"Apple reports a major sales decline and cuts earnings guidance.","sentiment":"negative","event":"Earnings"},
+ {"text":"JPMorgan faces bankruptcy following a missed repayment and credit downgrade.","sentiment":"negative","event":"Credit Event"},
+ {"text":"Amazon suffers a major outage and data breach causing losses.","sentiment":"negative","event":"Operational"},
+ {"text":"Meta Platforms faces a fraud investigation and antitrust fine.","sentiment":"negative","event":"Regulatory"},
+ {"text":"Exxon faces global sanctions and an export ban after a war escalates.","sentiment":"negative","event":"Geopolitical"},
+ {"text":"Microsoft revenue declines as weak demand causes quarterly losses.","sentiment":"negative","event":"Earnings"},
+ {"text":"Walmart cuts guidance after a slump in sales and profits.","sentiment":"negative","event":"Earnings"},
+ {"text":"NVIDIA faces an export ban and major shutdown causing losses.","sentiment":"negative","event":"Geopolitical"},
+ {"text":"Apple publishes the date of its annual shareholder meeting.","sentiment":"neutral","event":"Other"},
+ {"text":"Microsoft schedules its annual meeting for next month.","sentiment":"neutral","event":"Other"},
+ {"text":"The Federal Reserve publishes its interest rate decision calendar.","sentiment":"neutral","event":"Macroeconomic"},
+ {"text":"Alphabet lists the location of its next shareholder meeting.","sentiment":"neutral","event":"Other"},
+ {"text":"Walmart announces the publication date of its quarterly earnings report.","sentiment":"neutral","event":"Earnings"},
+ {"text":"The regulator releases the schedule for the upcoming hearing.","sentiment":"neutral","event":"Regulatory"},
+ {"text":"Johnson & Johnson publishes its company office address.","sentiment":"neutral","event":"Other"},
+ {"text":"The acquisition hearing is scheduled for Tuesday.","sentiment":"neutral","event":"Merger/Acquisition"}
+]
+

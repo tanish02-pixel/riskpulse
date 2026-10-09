@@ -1,0 +1,39 @@
+{
+  "scope": "Twelve fictional replay events analyzed by FinBERT. Mock allocations, not investment returns.",
+  "timestamp": "2026-10-08T17:03:22.763762+00:00",
+  "baseline": {
+    "AAPL": 0.1,
+    "MSFT": 0.1,
+    "NVDA": 0.1,
+    "AMZN": 0.1,
+    "GOOGL": 0.1,
+    "META": 0.1,
+    "JPM": 0.1,
+    "XOM": 0.1,
+    "JNJ": 0.1,
+    "WMT": 0.1
+  },
+  "after": {
+    "AAPL": 0.12500634666100138,
+    "MSFT": 0.1225405753574729,
+    "NVDA": 0.12427589159022151,
+    "AMZN": 0.0753591492338949,
+    "GOOGL": 0.12525831874724783,
+    "META": 0.07622479793745472,
+    "JPM": 0.07544192936572268,
+    "XOM": 0.07550929104921185,
+    "JNJ": 0.125285292703956,
+    "WMT": 0.07509840735381619
+  },
+  "total": 1.0,
+  "policy": {
+    "sensitivity": 0.35,
+    "min_weight": 0.02,
+    "max_weight": 0.18,
+    "max_turnover": 0.1,
+    "half_life_hours": 12,
+    "min_confidence": 0.55,
+    "min_sentiment": 0.08,
+    "max_age_hours": 72
+  }
+}
